@@ -3,6 +3,8 @@ let handler  = async (m, { conn, usedPrefix: _p }) => {
 let info = `
 Jasa Pembuataan Robot WA 
 
+Untuk Infomasi Selengkanya Hubungin Ownwerku..
+
 PEMBAYARAN PULSA AND DANA
 Indosat - 6281515474080
 DANA - 62895369318181
