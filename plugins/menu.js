@@ -122,12 +122,12 @@ const wib = moment.tz('Asia/Jakarta').format("HH:mm:ss")
 *╰──────────────────❒*
 *╭─❒𝙄𝙉𝙁𝙊 𝘽𝙊𝙏*
 *│* ⪼ \`\`\`Nama : Bot WA\`\`\`
-*│* ⪼ \`\`\`Owner : Ismail Kurama\`\`\`
+*│* ⪼ \`\`\`Owner : AhmadChenDev\`\`\`
 *│* ⪼ \`\`\`Recode : Team\`\`\`
 *│* ⪼ \`\`\`Total user : %totalreg\`\`\`
 *│* ⪼ \`\`\`Run Time : %uptime\`\`\`
-*│* ⪼ \`\`\`Youtube:\`\`\`
-*│* ⪼ \`\`\`https://youtube.com/c/IsmailKurama\`\`\` 
+*│* ⪼ \`\`\`Github:\`\`\`
+*│* ⪼ \`\`\`https://github.com/koleksibot\`\`\` 
 *╰──────────────────❒*
 
 
@@ -165,7 +165,7 @@ const wib = moment.tz('Asia/Jakarta').format("HH:mm:ss")
     text = text.replace(new RegExp(`%(${Object.keys(replace).sort((a, b) => b.length - a.length).join`|`})`, 'g'), (_, name) => ''+replace[name])
         
   
-conn.fakeReply(m.chat, `Loading...`, '0@s.whatsapp.net','*BENTAR BANG*')
+conn.fakeReply(m.chat, `Loading...`, '0@s.whatsapp.net','*BENTAR BANG Proses*')
 conn.reply(m.chat, text.trim(),  {
  key: {
   participant: '0@s.whatsapp.net',
