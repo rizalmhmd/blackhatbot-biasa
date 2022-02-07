@@ -1,7 +1,7 @@
 let handler = function (m) {
-  // this.sendContact(m.chat, '6281515860089', 'Nurutomo', m)
-  conn.sendContact(m.chat, '6289528232401', 'Zul Yahaha', m)
-  m.reply('wa.me/6289528232401')
+  // this.sendContact(m.chat, '6281515474080', 'Nekel', m)
+  conn.sendContact(m.chat, '6281515474080', 'Onwer', m)
+  m.reply('wa.me/6281515474080')
 }
 
 handler.command = /^pj1$/i
