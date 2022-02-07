@@ -1,15 +1,15 @@
 let { MessageType } = require('@adiwajshing/baileys')
 let handler = async (m, { conn, participants, args }) => {
      const rows = [
-        {title: 'jasa spam virus', description: "cek", rowId:".jsv"},
-        {title: 'jasa jual nomor +1', description: "cek", rowId:".jjn"},
+        {title: 'jasa Desain Logo', description: "Order Kak", rowId:".jsv"},
+        {title: 'jasa Pembuataan BOT', description: "Order Kak", rowId:".jjn"},
         
     ]
     
     const sections = [{title: "Silahkan dipilih", rows: rows}]
     const button = {
-        buttonText: 'press this',
-        description: "Jasa share",
+        buttonText: 'Order Kak',
+        description: "Silakan Di Pilih ⬇",
         sections: sections,
         listType: 1
     }
