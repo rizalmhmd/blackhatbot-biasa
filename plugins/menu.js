@@ -101,7 +101,7 @@ const wib = moment.tz('Asia/Jakarta').format("HH:mm:ss")
     }
     conn.menu = conn.menu ? conn.menu : {}
     let before = conn.menu.before || `
-*╭─❒ 𝙄𝙏𝙎*
+*╭─❒ Hai Kak 👻*
 *╰──────────────❒*
 ──❒ *INFO* ❒──
 *Jangan Lupa Bahagia*
@@ -110,24 +110,24 @@ const wib = moment.tz('Asia/Jakarta').format("HH:mm:ss")
 *╭─❒ Jadwal*
 *╰────❒ ${jadwal()}*
 *╭─❒𝙄𝙉𝙁𝙊 𝙐𝙎𝙀𝙍*
-*│* ⪼𝐍𝐀𝐌𝐀 : \`\`\`${name.vnmae || name.notify || name.name || ('+' + name.jid.split`@`[0])}\`\`\`
-*│* ⪼𝐗𝐏 : \`\`\`${Number(exp).toLocaleString().replace(/,/g, '.')}\`\`\`
-*│* ⪼𝐌𝐎𝐍𝐄𝐘 : \`\`\`${Number(money).toLocaleString().replace(/,/g, '.')}\`\`\`
-*│* ⪼𝐋𝐈𝐌𝐈𝐓 : \`\`\`${Number(limit).toLocaleString().replace(/,/g, '.')}\`\`\`
+*│* 𝐍𝐀𝐌𝐀 : \`\`\`${name.vnmae || name.notify || name.name || ('+' + name.jid.split`@`[0])}\`\`\`
+*│* 𝐗𝐏 : \`\`\`${Number(exp).toLocaleString().replace(/,/g, '.')}\`\`\`
+*│* 𝐌𝐎𝐍𝐄𝐘 : \`\`\`${Number(money).toLocaleString().replace(/,/g, '.')}\`\`\`
+*│* 𝐋𝐈𝐌𝐈𝐓 : \`\`\`${Number(limit).toLocaleString().replace(/,/g, '.')}\`\`\`
 *╰──────────────────❒*
-*╭─❒𝙄𝙉𝙂𝙁𝙊*
-*│* ⪼𝐉𝐀𝐌 : \`\`\`${wib} WIB\`\`\`
-*│* ⪼𝐇𝐀𝐑𝐈 : \`\`\`%week %weton\`\`\`
-*│* ⪼𝐓𝐀𝐍𝐆𝐆𝐀𝐋 : \`\`\`%date\`\`\`
+*╭─❒𝙉𝙂𝙁𝙊*
+*│* 𝐉𝐀𝐌 : \`\`\`${wib} WIB\`\`\`
+*│* 𝐇𝐀𝐑𝐈 : \`\`\`%week %weton\`\`\`
+*│* 𝐓𝐀𝐍𝐆𝐆𝐀𝐋 : \`\`\`%date\`\`\`
 *╰──────────────────❒*
-*╭─❒𝙄𝙉𝙁𝙊 𝘽𝙊𝙏*
-*│* ⪼ \`\`\`Nama : Bot WA\`\`\`
-*│* ⪼ \`\`\`Owner : AhmadChenDev\`\`\`
-*│* ⪼ \`\`\`Recode : Team\`\`\`
-*│* ⪼ \`\`\`Total user : %totalreg\`\`\`
-*│* ⪼ \`\`\`Run Time : %uptime\`\`\`
-*│* ⪼ \`\`\`Github:\`\`\`
-*│* ⪼ \`\`\`https://github.com/koleksibot\`\`\` 
+*╭─❒𝙉𝙁𝙊 𝘽𝙊𝙏*
+*│* ➣ \`\`\`Nama : Bot WA\`\`\`
+*│* ➣ \`\`\`Owner : AhmadChenDev\`\`\`
+*│* ➣ \`\`\`Recode : Team\`\`\`
+*│* ➣ \`\`\`Total user : %totalreg\`\`\`
+*│* ➣ \`\`\`Run Time : %uptime\`\`\`
+*│* ➣ \`\`\`Github:\`\`\`
+*│* ➣ \`\`\`https://github.com/koleksibot\`\`\` 
 *╰──────────────────❒*
 
 
@@ -173,7 +173,7 @@ conn.reply(m.chat, text.trim(),  {
  },
  message: {
   imageMessage: {
-   caption: `*Hamlo, ${ucapan()} ${ucapin()} ${name.vnmae || name.notify || name.name || ('+' + name.jid.split`@`[0])} ${kerjaan()}*`,
+   caption: `*Hallo, ${ucapan()} ${ucapin()} ${name.vnmae || name.notify || name.name || ('+' + name.jid.split`@`[0])} ${kerjaan()}*`,
    jpegThumbnail: fs.readFileSync(`./Ceue/${pickRandom(['1','2','3','4','5','6','7','8'])}.jpg`)
   }
  }
