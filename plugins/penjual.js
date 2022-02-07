@@ -9,35 +9,30 @@ let info = `
 
 ❒ *VIA GOPAY/DANA :*
   ╭─
-  │ 5k SEMINGGU
-  │15K SEBULAN
-  ╰───► 20K PERMANEN
+  │ 10k SEMINGGU
+  │50K SEBULAN
+  ╰───► 100K PERMANEN
 
 ❒ *VIA PULSA :*
   ╭─
-  │ 5k SEMINGGU
-  │ 15K SEBULAN
-  ╰────► 25K PERMANEN
+  │ 10K SEMINGGU
+  │ 50K SEBULAN
+  ╰────► 100K PERMANEN
 
-❒ *VIA DM EPEP :*
-   ╭─
-   │ 20 DM SEMINGGU
-   │ 70 DM SEBULAN
-   ╰────► 140 DM MANEN
 
 *NOTE : UNTUK SEWA PERMANEN ANDA DAPAT MEMASUKKAN BOT KE SEMUA GRUP YANG ANDA INGINKAN DAN ANDA DAPAT MENJADI USER PREMIUM*
 
 *FITUR :* 
 WELCOME IMAGE, ANTILINK, HIDETAG, ANTILINK YT, ANTILINK TIKTOK, VITUR GAME : CONTOH ADVENTURE, FAMILY100, JUDI, MANCING, MULUNG, BERBURU DLL..
 
-*Reff 50% Berlaku 1 Minggu (HANYA UNTUK SEWA PERMANEN DAN PAYMENT GOPAY !!!)*
+*Reff 50% Berlaku 1 Minggu (HANYA UNTUK SEWA PERMANEN DAN PAYMENT DANA !!!)*
 
 
 
 MAU TES BOT? BOLEH, FREE TES BOT SELAMA 1 JAM DI GRUP...
 
 Minat? Chat
-Grup : https://chat.whatsapp.com/LotvScYjEyQAzr5vtifzUc
+Grup : https://chat.whatsapp.com/
 `.trim()
 
 conn.fakeReply(m.chat, info, '0@s.whatsapp.net', '*Ga minat gausah chat! ketik .penjual jika berminat*', 'status@broadcast')
