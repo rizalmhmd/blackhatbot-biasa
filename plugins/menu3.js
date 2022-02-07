@@ -43,7 +43,7 @@ const buttonMessage = {
     contentText: `\`\`\`Hamlo ${name.vnmae || name.notify || name.name || ('+' + name.jid.split`@`[0])}, ${ucapan()} ${ucapin()}\`\`\`
 
 \`\`\`NB : Spam, Telpon : Blok!!!\`\`\``,
-    footerText: `Jam ${wib} WIB || © Ismail Kurama`,
+    footerText: `Jam ${wib} WIB || © LulzGhost-Team`,
     buttons: buttons,
     headerType: 4, // change for file type
     imageMessage: media.message.imageMessage // change for file type
@@ -52,12 +52,12 @@ const buttonMessage = {
 const andy = await conn.sendMessage(m.chat, buttonMessage, MessageType.buttonsMessage, { sendEphemeral: true, quoted: fvn, contextInfo: { forwardingScore: 899,
                 isForwarded: true ,"externalAdReply": {
           "title": `${pickRandom(['Wamduh','Yoi bang','awikwok','Kemren'])}`,
-          "body": `${pickRandom(['Hemhe','Ismail Kurama','Awikwok','Yoi bang','Hamdeh'])}`,
+          "body": `${pickRandom(['Hemhe','Ganteng','Awikwok','Yoi bang','Hamdeh'])}`,
           "mediaType": "1",
           "thumbnailUrl": `${pickRandom(['https://telegra.ph/file/6055740746c9067cd7ef9.jpg','https://telegra.ph/file/2624fbad04a89e4809417.jpg','https://telegra.ph/file/7980abf4219996710f1e4.jpg','https://telegra.ph/file/1a7d087032eea6abd0cd5.jpg'])}`,
-          "mediaUrl": `${pickRandom(['https://youtube.com/c/IsmailKurama','https://youtube.com/c/IsmailKurama','https://youtube.com/c/IsmailKurama','https://youtube.com/c/IsmailKurama'])}`,
+          "mediaUrl": `${pickRandom(['https://youtube.com/c/','https://youtube.com/c/','https://youtube.com/c/','https://youtube.com/c/'])}`,
      //     "thumbnail": "https://i.ibb.co/ysTv8wY/Screenshot-20210808-112316.png",
-         "sourceUrl": `${pickRandom(['https://youtube.com/c/IsmailKurama','https://youtube.com/c/IsmailKurama','https://youtube.com/c/IsmailKurama','https://youtube.com/c/IsmailKurama'])}`,
+         "sourceUrl": `${pickRandom(['https://youtube.com/c/','https://youtube.com/c/','https://youtube.com/c/','https://youtube.com/c/'])}`,
            }}})
         setTimeout(() => {
         conn.deleteMessage(m.chat, andy.key)
