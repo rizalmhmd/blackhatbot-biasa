@@ -36,14 +36,14 @@ const media = await conn.prepareMessage(m.chat, content, MessageType.image, { th
 
 const buttons = [
   {buttonId: `${usedPrefix}` + 'bwha', buttonText: {displayText: 'Menu️'}, type: 1},
-  {buttonId: `${usedPrefix}` + 'jsb', buttonText: {displayText: 'List sewa bot bang'}, type: 1}/*,
+  {buttonId: `${usedPrefix}` + 'jsb', buttonText: {displayText: 'Sewa Bot Bang'}, type: 1}/*,
    {buttonId: '/wip', buttonText: {displayText: 'info'}, type: 1}*/
 ]
 const buttonMessage = {
-    contentText: `\`\`\`Hamlo ${name.vnmae || name.notify || name.name || ('+' + name.jid.split`@`[0])}, ${ucapan()} ${ucapin()}\`\`\`
+    contentText: `\`\`\`Hallo ${name.vnmae || name.notify || name.name || ('+' + name.jid.split`@`[0])}, ${ucapan()} ${ucapin()}\`\`\`
 
-\`\`\`NB : Spam, Telpon : Blok!!!\`\`\``,
-    footerText: `Jam ${wib} WIB || © LulzGhost-Team`,
+\`\`\`Hallo Saya LulzGhost-Team BOT Saya Di Tugaskan Untuk BOT Berjualaan Online Shop Seperti Desain Logo,Sosmed,Dst\`\`\``,
+    footerText: `Sekarang Jam ${wib} WIB || © LulzGhost-Team Store`,
     buttons: buttons,
     headerType: 4, // change for file type
     imageMessage: media.message.imageMessage // change for file type
@@ -51,7 +51,7 @@ const buttonMessage = {
 
 const andy = await conn.sendMessage(m.chat, buttonMessage, MessageType.buttonsMessage, { sendEphemeral: true, quoted: fvn, contextInfo: { forwardingScore: 899,
                 isForwarded: true ,"externalAdReply": {
-          "title": `${pickRandom(['Wamduh','Yoi bang','awikwok','Kemren'])}`,
+          "title": `${pickRandom(['Wamduh','Hallo Ganteng','Wkwkwkw','Keren Parah'])}`,
           "body": `${pickRandom(['Hemhe','Ganteng','Awikwok','Yoi bang','Hamdeh'])}`,
           "mediaType": "1",
           "thumbnailUrl": `${pickRandom(['https://telegra.ph/file/6055740746c9067cd7ef9.jpg','https://telegra.ph/file/2624fbad04a89e4809417.jpg','https://telegra.ph/file/7980abf4219996710f1e4.jpg','https://telegra.ph/file/1a7d087032eea6abd0cd5.jpg'])}`,
