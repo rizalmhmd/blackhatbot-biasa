@@ -1,14 +1,11 @@
 let handler  = async (m, { conn, usedPrefix: _p }) => {
 
 let info = `
-JUAL NOMOR OTP CANADA
+Jasa Pembuataan Robot WA 
 
-5K / 1
-10K Dapet 3 nomor, kapan lagi bisa memiliki nomor +1 dengan harga yang murah 
-
-PEMBAYARAN ONLY PULSA
-Indosat - 6285795431803
-Telkomsel - 6282164659362
+PEMBAYARAN PULSA AND DANA
+Indosat - 6281515474080
+DANA - 62895369318181
 `.trim()
 
 conn.fakeReply(m.chat, info, '0@s.whatsapp.net', '*ketik .penjual jika anda berminat*', 'status@broadcast')
