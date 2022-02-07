@@ -1,7 +1,7 @@
 let handler = function (m) {
-  // this.sendContact(m.chat, '6285795431803', 'Andy', m)
-  conn.sendContact(m.chat, '6283805279906', 'Mael', m)
-  m.reply('wa.me/6283805279906')
+  // this.sendContact(m.chat, '6281515474080', 'Nekel', m)
+  conn.sendContact(m.chat, '6281515474080', 'Owner', m)
+  m.reply('wa.me/6281515474080')
 }
 
 handler.command = /^qw$/i
