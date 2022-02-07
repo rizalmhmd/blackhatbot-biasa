@@ -2,9 +2,6 @@ let handler  = async (m, { conn, usedPrefix: _p }) => {
 let info = `
 ╭─「 INFO BOT 」
 │
-│> Bot Recoded By :
-│• A N D Y - O F F C
-│
 │> Bot Dibuat Dengan :
 │• JavaScript via NodeJS
 │• FFmpeg
@@ -14,13 +11,10 @@ let info = `
 │• Anti Bot
 │• Drawl Nag
 │
-│> Donasi :
-│• INDOSAT [+6285795431803]
-│• TELKOMSEL [+6282164659362]
 ╰────
 `.trim()
 
-conn.fakeReply(m.chat, info, '0@s.whatsapp.net', '*Udah jomblo*\n*Gans pula*\n*Ya Andy Lah:v*', 'status@broadcast')
+conn.fakeReply(m.chat, info, '0@s.whatsapp.net', '*Udah jomblo*\n*Gans pula*\n*Ya Ahmad Lah*', 'status@broadcast')
 }
 handler.help = ['info']
 handler.tags = ['p']
