@@ -1,17 +1,17 @@
-# ZUL-BOT
+# BLACKHAT-BOT-BIASA
 
 # PENTING!!!
 ### Delete tengsto : WhatsApp kenon
 
 Simple WhatsApp Bot
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/ZulGanzy/zul-bot)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/koleksibot/blackhatbot-biasa)
 ## LAIN-LAIN
 
 * [![GitHub](https://img.shields.io/badge/-GitHub-black?style=flat-square&logo=github)](https://github.com/Nurutomo/wabot-aq) **(Sc ori**)
-* [![Instagram](https://img.shields.io/badge/Instagram-ff63f0?style=for-the-badge&logo=instagram&logoColor=white)](https://instagram.com/zullsaha) **(Imge saya)**
+* [![Instagram](https://img.shields.io/badge/Instagram-ff63f0?style=for-the-badge&logo=instagram&logoColor=white)](https://instagram.com/cyber_mrlinkerrorsystemoffical) **(Imge saya)**
 * [![GitHub](https://img.shields.io/badge/-GitHub-black?style=flat-square&logo=github)](https://github.com/andyjavadams/botwa) **(Yang ngode ulang)**
-* [![WhatsApp](https://img.shields.io/badge/WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white)](wa.me/6289528232401?text=Assalamualaikum+bang) **(Kalau ada yang mau ditanyakan bisa chat saya)**
+* [![WhatsApp](https://img.shields.io/badge/WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white)](wa.me/6281224413305?text=!menu) **(Kalau ada yang mau ditanyakan bisa chat saya)**
 ## FOR TERMUX/UBUNTU/SSH USER
 
 ```bash
@@ -20,8 +20,8 @@ apt install git -y
 apt install nodejs -y
 apt install ffmpeg -y
 apt install imagemagick -y
-git clone https://github.com/ZulGanzy/zul-bot
-cd zul-bot
+git clone https://github.com/koleksibot/blackhatbot-biasa
+cd blackhatbot-biasa
 npm install
 npm update
 ```
@@ -36,8 +36,8 @@ npm update
 * Download And Install ImageMagick [`Click Here`](https://imagemagick.org/script/download.php)
 
 ```bash
-git clone https://github.com/ZulGanzy/zul-bot
-cd zul-bot
+git clone https://github.com/koleksibot/blackhatbot-biasa
+cd blackhatbot-biasa
 npm install
 npm update
 ```
